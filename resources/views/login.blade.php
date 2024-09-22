@@ -15,7 +15,7 @@
                 <!-- form -->
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-12">
-                        <form action="/login/submit" method="post" novalidate>
+                        <form action="/login" method="post" novalidate>
                             @csrf
                             <div class="mb-3">
                                 <label for="username" class="form-label">Username</label>
