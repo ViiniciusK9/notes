@@ -35,6 +35,12 @@
                                 <button type="submit" class="btn btn-secondary w-100">LOGIN</button>
                             </div>
                         </form>
+
+                        {{-- invalid login --}}
+                        @if (session('login-error'))
+                            <div class="alert alert-danger text-center">{{ session('login-error') }}</div>
+                        @endif
+
                     </div>
                 </div>
                 
